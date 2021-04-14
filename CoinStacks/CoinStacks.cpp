@@ -15,6 +15,7 @@ int main()
 
     if (stackNum < 2 || stackNum > 50) {
         std::cout << "no";
+        return 0;
     }
 
     for (int i = 0; i < stackNum; i++) {
